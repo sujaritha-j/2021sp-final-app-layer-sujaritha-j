@@ -11,4 +11,11 @@ pytest-cov = "*"
 python_version = "3.8"
 
 [packages]
-csci-utils = {editable = true, git = "https://github.com/csci-e-29/2021sp-csci-utils-sujaritha-j.git"} 
+csci-utils = {editable = true, git = "https://github.com/csci-e-29/2021sp-csci-utils-sujaritha-j.git"}
+luigi = "*"
+dask = {extras = ["dataframe"], version = "*"}
+fastparquet = "*"
+s3fs = "<0.5.0"
+pymysql = "*"
+sqlalchemy = "*"
+pyodbc = "*"
