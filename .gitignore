@@ -1,5 +1,5 @@
 junk.py
-data
+word_embedding/data
 output.txt
 utility.py
 
@@ -110,3 +110,5 @@ venv.bak/
 .mypy_cache/
 
 .idea
+
+/.aws-sam/build/GetProductsFunction/
