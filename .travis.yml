@@ -24,4 +24,4 @@ deploy:
 
   # credentials entered at https://travis-ci.com/csci-e-29/YOUR_PSET_REPO_NAME/settings
   # DO NOT commit these variables to git.
-  script: make data && pipenv run python -m final-app-layer
+  script: make data && pipenv run python -m final_app_layer

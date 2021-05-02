@@ -16,6 +16,4 @@ luigi = "*"
 dask = {extras = ["dataframe"], version = "*"}
 fastparquet = "*"
 s3fs = "<0.5.0"
-pymysql = "*"
-sqlalchemy = "*"
-pyodbc = "*"
+boto3 = "*"
